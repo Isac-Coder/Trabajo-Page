@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Alakita';
+    src: url(Alakita\ dafont.otf);
+}
+
+* {
+    
+    margin: auto;
+    font-weight: 300;
+}
+
+body{
+    background-color: #f8ccd6;
+}
+header{
+    padding: 1.5rem;
+    margin: auto;
+    text-align: center;
+    
+    background-color: rgb(172, 111, 64);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.producto{
+    
+}
+
+img{
+    max-width: 300px;
+}
