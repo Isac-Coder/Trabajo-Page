@@ -1,0 +1,198 @@
+/* ── Reset básico ── */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── Estilos generales del body ── */
+body {
+  font-family: "Georgia", serif;
+  background-color: #fdf8f4;
+  color: #2c1a0e;
+}
+
+/* ── Sección principal ── */
+.contact-section {
+  padding: 3rem 1.5rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* ── Encabezado ── */
+.section-label {
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #8b6f5e;
+  margin-bottom: 0.5rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #2c1a0e;
+  margin-bottom: 0.5rem;
+}
+
+.section-subtitle {
+  font-size: 0.95rem;
+  color: #7a5c4e;
+  margin-bottom: 2.5rem;
+}
+
+/* ── Grid de dos columnas ── */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+/* ── Tarjeta de información ── */
+.info-card {
+  background-color: #f5ede6;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 1.25rem;
+}
+
+.icon-box {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background-color: #e8d5c4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.icon-box svg {
+  width: 16px;
+  height: 16px;
+  stroke: #8b4513;
+  fill: none;
+  stroke-width: 1.8;
+}
+
+.info-label {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #8b6f5e;
+  margin-bottom: 2px;
+}
+
+.info-value {
+  font-size: 0.9rem;
+  color: #2c1a0e;
+}
+
+/* ── Separador ── */
+.divider {
+  border: none;
+  border-top: 1px solid #d9c5b5;
+  margin: 1.25rem 0;
+}
+
+/* ── Tabla de horarios ── */
+.hour-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  padding: 6px 0;
+  border-bottom: 1px solid #d9c5b5;
+}
+
+.hour-row:last-child {
+  border-bottom: none;
+}
+
+.hour-row .day {
+  color: #7a5c4e;
+}
+
+.hour-row .time {
+  color: #2c1a0e;
+}
+
+/* ── Tarjeta del formulario ── */
+.form-card {
+  background-color: #ffffff;
+  border: 1px solid #e0ccbf;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+/* ── Fila doble dentro del formulario ── */
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+/* ── Grupo de campo ── */
+.form-group {
+  margin-bottom: 1rem;
+}
+
+/* ── Etiquetas ── */
+label {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #8b6f5e;
+  margin-bottom: 6px;
+}
+
+/* ── Campos del formulario ── */
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d9c5b5;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  background-color: #fdf8f4;
+  color: #2c1a0e;
+  font-family: "Georgia", serif;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #8b4513;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 90px;
+}
+
+/* ── Botón de envío ── */
+.btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #3b1c0e;
+  color: #f5ede6;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  font-family: "Georgia", serif;
+}
+
+.btn:hover {
+  background-color: #5a2d14;
+}
