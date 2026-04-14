@@ -15,12 +15,12 @@
 
 body {
   background-color: var(--cream);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Georgia", serif;
   color: var(--text);
 }
 
 /* ────────────────────────────
-   NAVEGACIÓN
+  NAVEGACIÓN
 ──────────────────────────── */
 .navbar {
   display: flex;
@@ -75,13 +75,13 @@ header h1 {
   color: var(--brown);
 }
 
-header p {
+/* header p {
   margin-top: 0.5rem;
   font-size: 0.9rem;
   color: var(--muted);
   letter-spacing: 0.15em;
   text-transform: uppercase;
-}
+} */
 
 main {
   max-width: 960px;

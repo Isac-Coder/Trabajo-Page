@@ -50,13 +50,17 @@ body {
   font-family: "Georgia", serif;
   background-color: #fdf6ee;
   color: #e9e3de;
-  line-height: 1.8;
+  /* line-height: 1.8; */
 }
 
 .intro {
   text-align: center;
-  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding: 60px 20px; */
   background-color: #3b2a1a;
+  height: 10rem;
 }
 
 .intro h1 {
