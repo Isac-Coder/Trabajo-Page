@@ -4,10 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>¿Quiénes somos?</title>
-    <link rel="stylesheet" href="estilos_cute.css">
+    <link rel="stylesheet" href="css/estilos_cute.css">
+     <link
+      rel="stylesheet"
+      href="js-scroll-to-top/st-css.css"
+    />
+
      
 </head>
 <body>
+    <header>
+        <nav class="navbar">
+      <div class="nav-logo">
+        <p class="nav-logo-name">La Cocketería</p>
+        <p class="nav-logo-sub">Repostería Artesanal</p>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="Cositas.html">Quiénes somos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+        </nav>
+    </header>
+
     <section id="quienes-somos">
 
         <div class="intro">
@@ -16,50 +36,74 @@
         </div>
 
         <div class="cards">
-
+            <section class="mv-cards"> 
             <section id="mision" class="card">
                 <h2>Misión</h2>
                 <p>Nuestra misión es endulzar la vida de nuestros clientes con pasteles deliciosos y de alta calidad, hechos con ingredientes frescos y naturales. En "Pastelitos", nos comprometemos a mantener la tradición de la repostería casera, mientras innovamos con sabores y diseños creativos.</p>
             </section>
-
+            
             <section id="vision" class="card">
-               
+                
                 <h2>Visión</h2>
                 <p>Nuestra visión es ser reconocidos como líderes en la industria de la repostería, ofreciendo productos innovadores y de alta calidad que superen las expectativas de nuestros clientes, llevando el sabor y la creatividad de "Pastelitos" a más personas.</p>
             </section>
-       
-            <section id="valores">
-                 <h2>Nuestros Valores</h2>
+            </section>
+            <hr class="linea-separadora">
+          <section id="valores">
+                <h2>Nuestros Valores</h2>
                  
-            <div class="valores-grid">
-
-                <div class="valor">
-        
-                    <h3>Calidad</h3>
-                    <p>Ingredientes frescos y naturales en cada pastel.</p>
-                </div>
-
-                <div class="valor">
+             <div class="valores-grid">
+                 <div class="valor">
                      
-                    <h3>Creatividad</h3>
-                    <p>Sabores y diseños únicos que sorprenden.</p>
-                </div>
-
-                <div class="valor">
+                     <h3>Calidad</h3>
+                     <p>Ingredientes frescos y naturales en cada pastel.</p>
+                    </div>
                     
-                    <h3>Pasión</h3>
-                    <p>Cada pastel hecho con amor y dedicación.</p>
+                    <div class="valor">
+                        
+                        <h3>Creatividad</h3>
+                        <p>Sabores y diseños únicos que sorprenden.</p>
+                    </div>
+                    
+                    <div class="valor">
+                        
+                        <h3>Pasión</h3>
+                        <p>Cada pastel hecho con amor y dedicación.</p>
+                    </div>
+                    
+                    <div class="valor"> 
+                        <h3>Calidez</h3>
+                        <p>Un ambiente cálido y acogedor para todos.</p>
+                    </div>
+                    
+                    <div class="valor">
+                        
+                        <h3>Equipo</h3>
+                        <p>Un equipo feliz crea los mejores pasteles.</p>
+                    </div> 
                 </div>
+             </section>
 
-                <div class="valor"> 
-                    <h3>Calidez</h3>
-                    <p>Un ambiente cálido y acogedor para todos.</p>
-                </div>
-
-                <div class="valor">
-                     
-                    <h3>Equipo</h3>
-                    <p>Un equipo feliz crea los mejores pasteles.</p>
-                </div>         
+                <footer class="footer">
+                    <div class="footer-inner">
+                        <div class="footer-brand">
+                            <p class="footer-name">La Cocketería</p>
+                            <p class="footer-tagline">Repostería Artesanal</p>
+                        </div>
+                        <div class="footer-links">
+                            <a href="catalogo.html">Catálogo</a>
+                            <a href="quienes-somos.html">Quiénes somos</a>
+                            <a href="contacto.html">Contacto</a>
+                        </div>
+                        <p class="footer-copy">
+                            © 2026 La Cocketería. Todos los derechos reservados.
+                        </p>
+                    </div>
+                </footer>     
+            </section>    
+            <button id="btn-top">
+            <span class="arrow"></span>
+            </button>
+            <script src="js-scroll-to-top/scroll-top.js"></script>
 </body>
 </html>

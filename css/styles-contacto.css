@@ -5,6 +5,47 @@
   padding: 0;
 }
 
+/* ────────────────────────────
+   NAVEGACIÓN
+──────────────────────────── */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2.5rem;
+  background-color: #fdf8f4;
+  border-bottom: 1px solid #e0ccbf;
+}
+
+.nav-logo-name {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #2c1a0e;
+}
+
+.nav-logo-sub {
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #8b6f5e;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #5a3a2a;
+  letter-spacing: 0.05em;
+}
+
+.nav-links a:hover {
+  color: #8b4513;
+}
 /* ── Estilos generales del body ── */
 body {
   font-family: "Georgia", serif;
@@ -195,4 +236,55 @@ textarea {
 
 .btn:hover {
   background-color: #5a2d14;
+}
+
+.footer {
+  background-color: #2c1a0e;
+  padding: 2.5rem;
+  margin-top: 3rem;
+}
+
+.footer-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  text-align: center;
+}
+
+.footer-name {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #f5ede6;
+}
+
+.footer-tagline {
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #c4a898;
+  margin-top: 2px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  font-size: 0.85rem;
+  color: #c4a898;
+  letter-spacing: 0.05em;
+}
+
+.footer-links a:hover {
+  color: #f5ede6;
+}
+
+.footer-copy {
+  font-size: 0.78rem;
+  color: #7a5c4e;
 }

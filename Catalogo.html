@@ -1,118 +1,187 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>La Cocketería</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <link
+      rel="stylesheet"
+      href="css/style-catalogo.css"
+    />
+    <link
+      rel="stylesheet"
+      href="js-scroll-to-top/st-css.css"
+    />
+  </head>
+  <body>
     <header>
-        <h1>La Cocketería</h1>
-        <p>Repostería artesanal</p>
+      <nav class="navbar">
+        <div class="nav-logo">
+          <p class="nav-logo-name">La Cocketería</p>
+          <p class="nav-logo-sub">Repostería Artesanal</p>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="catalogo.html">Catálogo</a></li>
+          <li><a href="Cositas.html">Quiénes somos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
 
+    <section class="catalogo-tlt">
+      <h1>Catálogo - La Cocketería</h1>
+    </section>
+
     <main>
+      <article class="card">
+        <div class="card-img-wrap">
+          <img
+            src="images/1.jpg"
+            alt="Cupcake de chocolate"
+          />
+          <span class="card-badge">Popular</span>
+        </div>
+        <div class="card-body">
+          <span class="card-category">Clásicos</span>
+          <h2 class="card-name">Cocketito de Chocolate</h2>
+          <p class="card-desc">
+            Bizcocho húmedo de cacao con frosting de crema batida y sprinkles de
+            colores.
+          </p>
+          <div class="card-footer">
+            <span class="card-price">$4.500</span>
+            <button class="card-btn">Pedir</button>
+          </div>
+        </div>
+      </article>
 
-        <article class="card">
-            <div class="card-img-wrap">
-                <img src="images/1.jpg" alt="Cupcake de chocolate">
-                <span class="card-badge">Popular</span>
-            </div>
-            <div class="card-body">
-                <span class="card-category">Clásicos</span>
-                <h2 class="card-name">Cocketito de Chocolate</h2>
-                <p class="card-desc">Bizcocho húmedo de cacao con frosting de crema batida y sprinkles de colores.</p>
-                <div class="card-footer">
-                    <span class="card-price">$4.500</span>
-                    <button class="card-btn">Pedir</button>
-                </div>
-            </div>
-        </article>
+      <article class="card">
+        <div class="card-img-wrap">
+          <img
+            src="images/2.jpg"
+            alt="Cupcake de vainilla"
+          />
+        </div>
+        <div class="card-body">
+          <span class="card-category">Clásicos</span>
+          <h2 class="card-name">Vainilla Dorada</h2>
+          <p class="card-desc">
+            Suave esponja de vainilla bourbon con buttercream de mantequilla
+            francesa.
+          </p>
+          <div class="card-footer">
+            <span class="card-price">$4.200</span>
+            <button class="card-btn">Pedir</button>
+          </div>
+        </div>
+      </article>
 
-        <article class="card">
-            <div class="card-img-wrap">
-                <img src="images/2.jpg" alt="Cupcake de vainilla">
-            </div>
-            <div class="card-body">
-                <span class="card-category">Clásicos</span>
-                <h2 class="card-name">Vainilla Dorada</h2>
-                <p class="card-desc">Suave esponja de vainilla bourbon con buttercream de mantequilla francesa.</p>
-                <div class="card-footer">
-                    <span class="card-price">$4.200</span>
-                    <button class="card-btn">Pedir</button>
-                </div>
-            </div>
-        </article>
+      <article class="card">
+        <div class="card-img-wrap">
+          <img
+            src="images/3.jpg"
+            alt="Cupcake de fresas"
+          />
+          <span class="card-badge">Nuevo</span>
+        </div>
+        <div class="card-body">
+          <span class="card-category">Temporada</span>
+          <h2 class="card-name">Fresa & Champagne</h2>
+          <p class="card-desc">
+            Bizcocho rosado con compota de fresa fresca y glaseado efervescente.
+          </p>
+          <div class="card-footer">
+            <span class="card-price">$5.000</span>
+            <button class="card-btn">Pedir</button>
+          </div>
+        </div>
+      </article>
 
-        <article class="card">
-            <div class="card-img-wrap">
-                <img src="images/3.jpg" alt="Cupcake de fresas">
-                <span class="card-badge">Nuevo</span>
-            </div>
-            <div class="card-body">
-                <span class="card-category">Temporada</span>
-                <h2 class="card-name">Fresa & Champagne</h2>
-                <p class="card-desc">Bizcocho rosado con compota de fresa fresca y glaseado efervescente.</p>
-                <div class="card-footer">
-                    <span class="card-price">$5.000</span>
-                    <button class="card-btn">Pedir</button>
-                </div>
-            </div>
-        </article>
+      <article class="card">
+        <div class="card-img-wrap">
+          <img
+            src="images/4.jpg"
+            alt="Cupcake red velvet"
+          />
+        </div>
+        <div class="card-body">
+          <span class="card-category">Especiales</span>
+          <h2 class="card-name">Red Velvet Clásico</h2>
+          <p class="card-desc">
+            Terciopelo rojo con frosting de queso crema y toque de limón.
+          </p>
+          <div class="card-footer">
+            <span class="card-price">$4.800</span>
+            <button class="card-btn">Pedir</button>
+          </div>
+        </div>
+      </article>
 
-        <article class="card">
-            <div class="card-img-wrap">
-                <img src="images/4.jpg" alt="Cupcake red velvet">
-            </div>
-            <div class="card-body">
-                <span class="card-category">Especiales</span>
-                <h2 class="card-name">Red Velvet Clásico</h2>
-                <p class="card-desc">Terciopelo rojo con frosting de queso crema y toque de limón.</p>
-                <div class="card-footer">
-                    <span class="card-price">$4.800</span>
-                    <button class="card-btn">Pedir</button>
-                </div>
-            </div>
-        </article>
+      <article class="card">
+        <div class="card-img-wrap">
+          <img
+            src="images/5.jpg"
+            alt="Cupcake de caramelo"
+          />
+        </div>
+        <div class="card-body">
+          <span class="card-category">Especiales</span>
+          <h2 class="card-name">Caramelo Salado</h2>
+          <p class="card-desc">
+            Masa de caramelo profundo con fleur de sel y ganache oscuro.
+          </p>
+          <div class="card-footer">
+            <span class="card-price">$5.200</span>
+            <button class="card-btn">Pedir</button>
+          </div>
+        </div>
+      </article>
 
-        <article class="card">
-            <div class="card-img-wrap">
-                <img src="images/5.jpg" alt="Cupcake de caramelo">
-            </div>
-            <div class="card-body">
-                <span class="card-category">Especiales</span>
-                <h2 class="card-name">Caramelo Salado</h2>
-                <p class="card-desc">Masa de caramelo profundo con fleur de sel y ganache oscuro.</p>
-                <div class="card-footer">
-                    <span class="card-price">$5.200</span>
-                    <button class="card-btn">Pedir</button>
-                </div>
-            </div>
-        </article>
-
-        <article class="card">
-            <div class="card-img-wrap">
-                <img src="images/6.jpg" alt="Cupcake de limón">
-                <span class="card-badge">Favorito</span>
-            </div>
-            <div class="card-body">
-                <span class="card-category">Clásicos</span>
-                <h2 class="card-name">Limón & Merengue</h2>
-                <p class="card-desc">Esponja cítrica con lemon curd casero y merengue suizo tostado.</p>
-                <div class="card-footer">
-                    <span class="card-price">$4.600</span>
-                    <button class="card-btn">Pedir</button>
-                </div>
-            </div>
-        </article>
-
+      <article class="card">
+        <div class="card-img-wrap">
+          <img
+            src="images/6.jpg"
+            alt="Cupcake de limón"
+          />
+          <span class="card-badge">Favorito</span>
+        </div>
+        <div class="card-body">
+          <span class="card-category">Clásicos</span>
+          <h2 class="card-name">Limón & Merengue</h2>
+          <p class="card-desc">
+            Esponja cítrica con lemon curd casero y merengue suizo tostado.
+          </p>
+          <div class="card-footer">
+            <span class="card-price">$4.600</span>
+            <button class="card-btn">Pedir</button>
+          </div>
+        </div>
+      </article>
     </main>
 
-    <footer class="page-footer">
-        Hecho a mano cada día
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <p class="footer-name">La Cocketería</p>
+          <p class="footer-tagline">Repostería Artesanal</p>
+        </div>
+        <div class="footer-links">
+          <a href="catalogo.html">Catálogo</a>
+          <a href="quienes-somos.html">Quiénes somos</a>
+          <a href="contacto.html">Contacto</a>
+        </div>
+        <p class="footer-copy">
+          © 2026 La Cocketería. Todos los derechos reservados.
+        </p>
+      </div>
     </footer>
-
-</body>
+    <button id="btn-top">
+      <span class="arrow"></span>
+    </button>
+    <script src="js-scroll-to-top/scroll-top.js"></script>
+  </body>
 </html>
